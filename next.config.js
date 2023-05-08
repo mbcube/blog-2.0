@@ -4,16 +4,7 @@ const { get } = require("@vercel/edge-config");
 const nextConfig = {
   images: {
     formats: ["image/avif", "image/webp"],
-    domains: ["images.ctfassets.net"],
-
-    // Twitter Profile Picture
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "pbs.twimg.com",
-        pathname: "/**",
-      },
-    ],
+    domains: ["images.ctfassets.net", "pbs.twimg.com"],
   },
   experimental: {
     appDir: true,
