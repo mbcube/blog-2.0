@@ -1,5 +1,4 @@
 import { notFound } from "next/navigation";
-import { Mdx } from "components/mdx";
 import Balancer from "react-wrap-balancer";
 import { createClient } from "contentful";
 import Post from "components/post";
@@ -53,7 +52,7 @@ import Post from "components/post";
 //   };
 // }
 
-export async function getBlogPost(params) {
+async function getBlogPost(params) {
   const client = createClient({
     space: process.env.CONTENTFUL_SPACE || "",
     accessToken: process.env.CONTENTFUL_ACCESS_TOKEN || "",
