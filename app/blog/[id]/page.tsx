@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Balancer from "react-wrap-balancer";
 import { createClient } from "contentful";
 import Post from "components/post";
+import emailSubscribe from "components/email-subscribe";
 
 // export async function generateStaticParams() {
 //   return allBlogs.map((post) => ({
@@ -94,6 +95,7 @@ export default async function Blog({ params }) {
       </div>
       {/* <Mdx code={post.body} /> */}
       <Post id={params.id} post={post} asset={asset} />
+      {emailSubscribe()}
     </section>
   );
 }
