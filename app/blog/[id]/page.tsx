@@ -4,6 +4,8 @@ import { createClient } from "contentful";
 import Post from "components/post";
 import emailSubscribe from "components/email-subscribe";
 
+export const revalidate = 3600;
+
 // export async function generateStaticParams() {
 //   return allBlogs.map((post) => ({
 //     slug: post.slug,
