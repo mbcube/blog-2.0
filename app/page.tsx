@@ -6,20 +6,6 @@ import emailSubscribe from "components/email-subscribe";
 export const revalidate = 60;
 
 export default async function HomePage() {
-  let starCount = 0,
-    views = 0,
-    tweetCount = 0;
-
-  // try {
-  //   [starCount, views, tweetCount] = await Promise.all([
-  //     getStarCount(),
-  //     getBlogViews(),
-  //     getTweetCount(),
-  //   ]);
-  // } catch (error) {
-  //   console.error(error);
-  // }
-
   return (
     <section>
       <h1 className="font-bold text-3xl font-serif">{name}</h1>
@@ -48,7 +34,7 @@ export default async function HomePage() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/mouadbouras"
+            href="https://github.com/mbcube"
             className="flex items-center gap-2"
           >
             <GitHubIcon />

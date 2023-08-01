@@ -6,55 +6,6 @@ import emailSubscribe from "components/email-subscribe";
 
 export const revalidate = 3600;
 
-// export async function generateStaticParams() {
-//   return allBlogs.map((post) => ({
-//     slug: post.slug,
-//   }));
-// }
-
-// export async function generateMetadata({
-//   params,
-// }): Promise<Metadata | undefined> {
-//   const post = allBlogs.find((post) => post.slug === params.slug);
-//   if (!post) {
-//     return;
-//   }
-
-//   const {
-//     title,
-//     publishedAt: publishedTime,
-//     summary: description,
-//     image,
-//     slug,
-//   } = post;
-//   const ogImage = image
-//     ? `https://leerob.io${image}`
-//     : `https://leerob.io/api/og?title=${title}`;
-
-//   return {
-//     title,
-//     description,
-//     openGraph: {
-//       title,
-//       description,
-//       type: 'article',
-//       publishedTime,
-//       url: `https://leerob.io/blog/${slug}`,
-//       images: [
-//         {
-//           url: ogImage,
-//         },
-//       ],
-//     },
-//     twitter: {
-//       card: 'summary_large_image',
-//       title,
-//       description,
-//       images: [ogImage],
-//     },
-//   };
-// }
-
 async function getBlogPost(params) {
   const client = createClient({
     space: process.env.CONTENTFUL_SPACE || "",
