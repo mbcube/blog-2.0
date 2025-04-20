@@ -21,11 +21,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Mouad Bouras",
     description: "Developer, writer, and creator.",
-    url: "https://leerob.io",
+    url: "https://mouadbouras.com",
     siteName: "Mouad Bouras",
     images: [
       {
-        url: "https://leerob.io/og.jpg",
+        url: "https://mouadbouras.com/avatar.png",
         width: 1920,
         height: 1080,
       },
