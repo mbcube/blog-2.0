@@ -49,19 +49,40 @@ export default function MbcubePage() {
           solutions tailored to our clients' specific requirements. With a
           proven track record of successful projects and satisfied clients,
           including long-term partnerships such as{" "}
-          <a href="https://www.cae.com/">CAE</a>, MBCube Consulting is dedicated
-          to empowering businesses with cutting-edge technology and driving
-          their growth.
+          <a href="https://www.cae.com/">CAE</a>, and{" "}
+          <a href="https://ia.ca/">IA</a>, MBCube Consulting is dedicated to
+          empowering businesses with cutting-edge technology and driving their
+          growth.
           <br />
           <br />
-          We are currently partners with{" "}
-          <a href="https://www.vaco.com/"> Vaco</a> and{" "}
-          <a href="https://hr-eka.vercel.app/"> HREka</a> and some of our other
-          clients include: <br />
-          <a href="https://berlinhouse.ma/">BerlinHouse</a>,{" "}
-          <a href="https://www.instagram.com/mtlive.ca">MTLive</a>,{" "}
-          <a href="https://www.instagram.com/rvactive/?hl=en">RVActive</a>, and
-          more.
+          We are currently partners with placement agencies such as{" "}
+          <a target="_blank" href="https://www.gft.com/ca/en">
+            {" "}
+            GFT
+          </a>
+          ,{" "}
+          <a target="_blank" href="https://www.vaco.com/">
+            {" "}
+            Vaco
+          </a>{" "}
+          and{" "}
+          <a target="_blank" href="https://www.greptechnologies.ca/">
+            Grep Technologies
+          </a>{" "}
+          and direct clients such as{" "}
+          <a target="_blank" href="https://hreka-mvp-v2.vercel.app/">
+            {" "}
+            HREka
+          </a>
+          ,{" "}
+          <a target="_blank" href="https://ccc-web3.com/">
+            CCC-Web3
+          </a>
+          ,{" "}
+          <a target="_blank" href="https://www.instagram.com/mtlive.ca">
+            MTLive,
+          </a>{" "}
+          and more.
         </p>
       </div>
     </section>
