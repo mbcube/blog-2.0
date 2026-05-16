@@ -1,21 +1,17 @@
-import me from "../app/avatar.png";
+import me from "../app/avatar.jpeg";
 
-export const name = "Mouad Bouras";
+export const name = "Owner-First Websites & Web Apps";
 export const avatar = me;
 export const about = () => {
-  return (
-    <>Hey, I'm Mouad. I'm a Full Stack Consultant at MBCube Consulting inc.</>
-  );
+  return <>Build a website you actually own</>;
 };
 export const bio = () => {
   return (
     <>
-      I specialize in various technology stacks, with notable expertise in
-      multiple areas including, Cloud Platforms, Microservices, Databases and
-      Front-End Frameworks.
-      <br /> In addition to my technical skills, I have a passion for sharing my
-      knowledge and experience with others. I have trained a few juniors and
-      interns, and authored several technical articles and blog posts.
+      I build custom websites and web apps for agencies, service businesses, and
+      growing teams that want flexibility without vendor lock-in. The result is
+      a fast, maintainable stack you control, with minimal ongoing costs and no
+      dependency on a platform you can’t leave.
     </>
   );
 };

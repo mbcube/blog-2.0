@@ -14,18 +14,20 @@ const kaisei = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: "Mouad Bouras",
-    template: "%s | Mouad Bouras",
+    default: "MBCube - Owner-First Websites & Web Apps",
+    template: "%s | MBCube - Owner-First Websites & Web Apps",
   },
-  description: "Developer, writer, and creator.",
+  description:
+    "Custom websites and web apps for agencies and growing businesses — fast, scalable, and free from vendor lock-in.",
   openGraph: {
-    title: "Mouad Bouras",
-    description: "Developer, writer, and creator.",
-    url: "https://mouadbouras.com",
-    siteName: "Mouad Bouras",
+    title: "MBCube - Owner-First Websites & Web Apps",
+    description:
+      "Custom websites and web apps for agencies and growing businesses — fast, scalable, and free from vendor lock-in.",
+    url: "https://mbcubeconsulting.ca",
+    siteName: "MBCube - Owner-First Websites & Web Apps",
     images: [
       {
-        url: "https://mouadbouras.com/avatar.png",
+        url: "https://mbcubeconsulting.ca/avatar.jpeg",
         width: 1920,
         height: 1080,
       },
@@ -45,7 +47,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Mouad Bouras",
+    title: "MBCube — Custom Websites & Web Apps",
     card: "summary_large_image",
   },
   icons: {
@@ -67,7 +69,7 @@ export default function RootLayout({
       lang="en"
       className={clsx(
         "text-black bg-white dark:text-white dark:bg-[#111010]",
-        kaisei.variable
+        kaisei.variable,
       )}
     >
       <body className="antialiased max-w-4xl mb-40 flex flex-col md:flex-row mx-4 mt-8 md:mt-20 lg:mt-32 lg:mx-auto">

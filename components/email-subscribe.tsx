@@ -6,12 +6,10 @@ export default function emailSubscribe() {
       <li>
         <a
           className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
-          rel="noopener noreferrer"
-          target="_blank"
-          href="https://medium.com/@MBCube/subscribe"
+          href="mailto:mouad@mbcubeconsulting.ca"
         >
           <ArrowIcon />
-          <p className="h-7">get email updates</p>
+          <p className="h-7">Start a project</p>
         </a>
       </li>
     </ul>

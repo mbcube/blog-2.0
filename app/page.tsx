@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { GitHubIcon, MediumIcon, TwitterIcon } from "components/icons";
+import { GitHubIcon, LinkedinIcon, MediumIcon } from "components/icons";
 import { name, about, bio, avatar } from "lib/info";
 import emailSubscribe from "components/email-subscribe";
 
@@ -25,11 +25,11 @@ export default async function HomePage() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/mouadbouras"
+            href="https://www.linkedin.com/in/mouadbouras/"
             className="flex items-center gap-2"
           >
-            <TwitterIcon />
-            {`follow me on Twitter`}
+            <LinkedinIcon />
+            {`connect with me on LinkedIn`}
           </a>
           <a
             rel="noopener noreferrer"
